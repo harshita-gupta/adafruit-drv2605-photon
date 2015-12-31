@@ -3,5 +3,5 @@
   "author": "Harshita Gupta <gupta.harshita.001@gmail.com>",
   "license": "MIT",
   "version": "1.0.0",
-  "description": "Arduino DRV2605 library ported for the Particle Photon."
+  "description": "Arduino DRV2605 library ported for the Particle Photon. Makes code compatible with Adafruit Haptic Controller Breakout."
 }
