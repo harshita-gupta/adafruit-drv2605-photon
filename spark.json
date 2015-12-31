@@ -2,6 +2,6 @@
   "name": "adafruit-drv2605-photon",
   "author": "Harshita Gupta <gupta.harshita.001@gmail.com>",
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Particle Photon port of the Arduino DRV2605 library."
 }
