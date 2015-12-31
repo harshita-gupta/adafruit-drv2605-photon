@@ -1,8 +1,8 @@
-/*************************************************** 
+/***************************************************
   This is a library for the Adafruit DRV2605L Haptic Driver
 
   ----> http://www.adafruit.com/products/2305
- 
+
   Check out the links above for our tutorials and wiring diagrams
   This motor/haptic driver uses I2C to communicate
 
@@ -15,13 +15,7 @@
  ****************************************************/
 
 
-#if ARDUINO >= 100
- #include "Arduino.h"
-#else
- #include "WProgram.h"
-#endif
-
-#include <Wire.h>
+#include "application.h"
 
 #define DRV2605_ADDR 0x5A
 
@@ -73,7 +67,7 @@ class Adafruit_DRV2605 {
  public:
 
   Adafruit_DRV2605(void);
-  boolean begin(void);  
+  boolean begin(void);
 
   void writeRegister8(uint8_t reg, uint8_t val);
   uint8_t readRegister8(uint8_t reg);
@@ -90,4 +84,3 @@ class Adafruit_DRV2605 {
  private:
 
 };
-
