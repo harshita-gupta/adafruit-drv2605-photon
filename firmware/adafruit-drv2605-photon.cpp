@@ -17,7 +17,7 @@
 
 #include "application.h"
 
-#include <adafruit-drv2605-photon.h>
+// #include <adafruit-drv2605-photon.h>
 
 /**************************************************************************/
 /*!
