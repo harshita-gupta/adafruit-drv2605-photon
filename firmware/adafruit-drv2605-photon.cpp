@@ -17,12 +17,8 @@
 
 #include "application.h"
 
-if (defined(PARTICLE_WEB_IDE)) {
-  #include "adafruit-drv2605-photon/adafruit-drv2605-photon.h"
-}
-else (defined(PARICLE_DEV_IDE)) {
-  #include "adafruit-drv2605-photon.h"
-}
+#include "adafruit-drv2605-photon/adafruit-drv2605-photon.h"
+
 
 /**************************************************************************/
 /*!
